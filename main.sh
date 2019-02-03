@@ -14,3 +14,4 @@ source $ZSH/oh-my-zsh.sh
 source ~/.zshrc-plugin
 source lib/postman.sh
 source lib/grep.sh
+source lib/xinput.sh
