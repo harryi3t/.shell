@@ -9,9 +9,9 @@ plugins=(
   git
 )
 
-source lib/powerline.sh
-source $ZSH/oh-my-zsh.sh
+source ~/.shell/lib/powerline.sh
 source ~/.zshrc-plugin
-source lib/postman.sh
-source lib/grep.sh
-source lib/xinput.sh
+source ~/.shell/lib/postman.sh
+source ~/.shell/lib/grep.sh
+source ~/.shell/lib/xinput.sh
+source $ZSH/oh-my-zsh.sh
