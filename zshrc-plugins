@@ -1,0 +1,3 @@
+plugins=(git z zsh-completions)
+source ~/.oh-my-zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.oh-my-zsh/plugins/z/z.sh

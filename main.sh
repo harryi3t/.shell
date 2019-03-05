@@ -5,12 +5,8 @@ export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PR
 ZSH_THEME="powerlevel9k/powerlevel9k"
 POWERLEVEL9K_MODE="awesome-mapped-fontconfig"
 
-plugins=(
-  git
-)
-
 source ~/.shell/lib/powerline.sh
-source ~/.zshrc-plugin
+source ~/.shell/zshrc-plugins
 source ~/.shell/lib/postman.sh
 source ~/.shell/lib/grep.sh
 source ~/.shell/lib/xinput.sh
